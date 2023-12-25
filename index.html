@@ -46,7 +46,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-between "
+              class="collapse navbar-collapse justify-content-between"
               id="navbarNavDropdown"
             >
               <form class="d-flex" style="width: 25em" role="search ">
@@ -65,59 +65,49 @@
               </form>
 
               <ul class="navbar-nav">
-                <li class="nav-item me-2 ms-2"></li>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item"> 
-                      <h2 class="accordion-header">
-                        <button
-                          class="accordion-button me-2 o " 
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne"
-                          aria-expanded="true"
-                          aria-controls="collapseOne"
-                        >
-                          <a class="nav-link active d-flex" aria-current="page" href="#">
-                            <i class="bi bi-geo-alt"></i>Konum</a
-                          >
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show "  data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p style="font-size: 10px;">Konumunuzu Belirleyin
-                                Adresinizi veya konum bilgilerinizi seçerek özel hizmetleri görebilirsiniz.</p>
-                            <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                  <option selected>İl Seçiniz</option>
-                                  <option value="1">İzmir</option>
-                                  <option value="2">Ankara</option>
-                                  <option value="3">İstanbul</option>
-                                </select>
-                              
-                              </div>
-                              <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                  <option selected>İlçe Seçiniz</option>
-                                  <option value="1">İzmir</option>
-                                  <option value="2">Ankara</option>
-                                  <option value="3">İstanbul</option>
-                                </select>
-                              
-                              </div>
-                              <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                  <option selected>Mahalle Seçiniz</option>
-                                  <option value="1">İzmir</option>
-                                  <option value="2">Ankara</option>
-                                  <option value="3">İstanbul</option>
-                                </select>
-                              
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
+<li
+                  class="nav-item dropdown border border-2 border-secondary rounded-2 mb-2 me-2 ms-2"
+                  style="width: 9em; height: 3em"
+                >
+                  <a
+                    class="nav-link dropdown-toggle text-center p-1"
+                    style="font-size: 14px"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="bi bi-geo-alt"></i>Konum
+                  </a>
+                <a href="
+                " style="text-decoration: none;">  <p class="text-center" style="font-size: 10px; color:rgb(246, 109, 0) ; ">Konum seçiniz</p></a>
+                  <ul class="dropdown-menu p-3">
+                    <p style="font-size: 10px;" class="m-2">Adresinizi veya konum bilgilerinizi seçerek özel hizmetleri görebilirsiniz</p>
+                    <select class="form-select" id="floatingSelectGrid" style="font-size: 12px;">
+            
+                      <option selected>İl Seçiniz</option>
+                      <option value="1">İstanbul </option>
+                      <option value="2">Ankara</option>
+                      <option value="3">İzmir</option>
+                    </select>
+                    <select class="form-select mt-2" id="floatingSelectGrid" style="font-size: 12px;">
+            
+                      <option selected>İlçe Seçiniz</option>
+                      <option value="1">İstanbul </option>
+                      <option value="2">Ankara</option>
+                      <option value="3">İzmir</option>
+                    </select>
+                    <select class="form-select mt-2" id="floatingSelectGrid" style="font-size: 12px;">
+            
+                      <option selected >Mahalle Seçiniz</option>
+                      <option value="1">İstanbul </option>
+                      <option value="2">Ankara</option>
+                      <option value="3">İzmir</option>
+                    </select>
+                   
+                  </ul>
+                </li>
+
                 <li
                   class="nav-item dropdown border border-2 border-secondary rounded-2 mb-2 me-2 ms-2"
                   style="width: 9em; height: 3em"
@@ -234,112 +224,126 @@
         <div class="carousel-inner">
           <div class="container">
             <div class="row">
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
+              <div class="col d-flex">
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/materiel/img/1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/1.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/materiel/img/2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/materiel/img/3.webp"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/materiel/img/4.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/materiel/img/5.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/3.webp"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
-                </div>
-              </div>
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
-                </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/4.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
-                </div>
-              </div>
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
-                </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/5.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
-                </div>
-              </div>
-              <div class="col-2 text-center">
-                <div>
-                  <p>İkosga Çift Saplı Omuz Askılı</p>
-                </div>
-                <div class="carousel-item active">
-                  <img
-                    src="assets/materiel/img/6.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <p
-                    style="font-weight: 600; color: rgb(246, 109, 0)"
-                    class="text-center mt-3"
-                  >
-                    547,99
-                  </p>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <p>İkosga Çift Saplı Omuz Askılı</p>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/materiel/img/6.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <p
+                        style="font-weight: 600; color: rgb(246, 109, 0)"
+                        class="text-center mt-3"
+                      >
+                        547,99
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -366,29 +370,57 @@
       </div>
     </section>
     <section>
-        <div class="container  ">
-            <div class="row">
-                <div class="col">
-                    <img src="assets/materiel/img/format_webp (4).jpg" class="w-100 " alt="">
-                </div>
-                <div class="col">
-                    <img src="assets/materiel/img/format_webp (5).jpg" class="w-100" alt="">
-                </div>
-                <div class="col">
-                    <img src="assets/materiel/img/format_webp (6).jpg" class="w-100" alt="">
-                </div>
-                <div class="col">
-                    <img src="assets/materiel/img/format_webp (7).jpg" class="w-100" alt="">
-                </div>
-                <div class="col">
-                    <img src="assets/materiel/img/format_webp (8).jpg" class="w-100" alt="">
-                </div>
-              
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="">
+              <img
+                src="assets/materiel/img/format_webp (4).jpg"
+                class="w-100"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img
+                src="assets/materiel/img/format_webp (5).jpg"
+                class="w-100"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img
+                src="assets/materiel/img/format_webp (6).jpg"
+                class="w-100"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img
+                src="assets/materiel/img/format_webp (7).jpg"
+                class="w-100"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img
+                src="assets/materiel/img/format_webp (8).jpg"
+                class="w-100"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <!-- anasayfa düzeni end -->
-
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
